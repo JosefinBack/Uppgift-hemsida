@@ -81,3 +81,30 @@ a {
     background-position: center;
     padding: 10px 20px; 
 }
+
+#link:hover {
+    color:green; 
+    text-decoration: underline; 
+}
+
+#selfie {
+    display:flex;
+    justify-content: center;
+}
+
+#picture-of-me {
+    height: 500px;
+    width: 250px;
+    object-fit: cover;  
+    border-radius: 10px;
+}
+
+ul {
+    background-color: #ddf8dd;
+    border: 1px solid green;  
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 30px; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
